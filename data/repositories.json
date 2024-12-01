@@ -238,5 +238,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "neeerp",
+    "name": "aoc24",
+    "crate": "advent-of-code-2024",
+    "toolchain": "stable"
   }
 ]
