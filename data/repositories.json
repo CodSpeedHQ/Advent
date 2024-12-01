@@ -196,5 +196,11 @@
     "name": "advent-of-code-2024",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "qsantos",
+    "name": "advent-of-code",
+    "crate": "aoc-2024",
+    "toolchain": "stable"
   }
 ]
