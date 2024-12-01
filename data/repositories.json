@@ -340,5 +340,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ahouts",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
