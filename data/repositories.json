@@ -370,5 +370,11 @@
     "name": "aocrust",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "safwaahmad",
+    "name": "aoc-24",
+    "crate": "aoc-24",
+    "toolchain": "stable"
   }
 ]
