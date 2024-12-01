@@ -346,5 +346,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "safwaahmad",
+    "name": "adventofcode",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
