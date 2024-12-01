@@ -250,5 +250,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "zegevlier",
+    "name": "advent_of_code_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
