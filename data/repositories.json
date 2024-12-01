@@ -130,5 +130,11 @@
     "name": "aoc",
     "crate": "ethteck-aoc-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "sammhicks",
+    "name": "advent_of_code_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
