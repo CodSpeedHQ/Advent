@@ -70,5 +70,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "AndrejOrsula",
+    "name": "aoc",
+    "crate": "aoc2024",
+    "toolchain": "nightly"
   }
 ]
