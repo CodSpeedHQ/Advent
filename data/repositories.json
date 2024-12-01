@@ -118,5 +118,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "giocri",
+    "name": "advent_of_codspeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
