@@ -232,5 +232,11 @@
     "name": "aoc-rust",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "enigma",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
