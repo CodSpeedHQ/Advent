@@ -292,5 +292,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "okamt",
+    "name": "advent-of-code-2024",
+    "crate": "advent-of-code-2024",
+    "toolchain": "nightly"
   }
 ]
