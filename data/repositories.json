@@ -172,5 +172,11 @@
     "name": "aoc-2024",
     "crate": "aoc-2024",
     "toolchain": "nightly"
+  },
+  {
+    "owner": "revolko",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
