@@ -256,5 +256,11 @@
     "name": "advent_of_code_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ThomAub",
+    "name": "aoc_2024",
+    "crate": "aoc_2024",
+    "toolchain": "1.82"
   }
 ]
