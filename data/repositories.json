@@ -94,5 +94,11 @@
     "name": "advent-of-code-2024",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "0xnim",
+    "name": "aocs",
+    "crate": "aocs",
+    "toolchain": "stable"
   }
 ]
