@@ -286,5 +286,11 @@
     "name": "advent2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "CattoFace",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
