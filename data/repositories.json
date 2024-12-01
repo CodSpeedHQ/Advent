@@ -178,5 +178,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "TinoM",
+    "name": "adventofcode2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
