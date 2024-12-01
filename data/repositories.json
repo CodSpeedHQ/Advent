@@ -64,5 +64,11 @@
     "name": "advent",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "chyyran",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
