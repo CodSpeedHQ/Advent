@@ -352,5 +352,11 @@
     "name": "adventofcode",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "VirgileHenry",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
