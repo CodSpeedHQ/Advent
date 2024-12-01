@@ -376,5 +376,11 @@
     "name": "aoc-24",
     "crate": "aoc-24",
     "toolchain": "stable"
+  },
+  {
+    "owner": "jpverkamp",
+    "name": "advent-of-code",
+    "crate": "aoc2024",
+    "toolchain": "stable"
   }
 ]
