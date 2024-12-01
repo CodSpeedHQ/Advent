@@ -124,5 +124,11 @@
     "name": "advent_of_codspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ethteck",
+    "name": "aoc",
+    "crate": "ethteck-aoc-2024",
+    "toolchain": "stable"
   }
 ]
