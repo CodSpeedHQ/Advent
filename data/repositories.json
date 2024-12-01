@@ -310,5 +310,11 @@
     "name": "adventofcode",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "MarkGhebrial",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
