@@ -106,5 +106,11 @@
     "name": "codspeed-challenge-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "jseward",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
