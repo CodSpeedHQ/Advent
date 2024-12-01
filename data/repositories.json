@@ -262,5 +262,11 @@
     "name": "aoc_2024",
     "crate": "aoc_2024",
     "toolchain": "1.82"
+  },
+  {
+    "owner": "ArrowMaxGithub",
+    "name": "aoc_2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
