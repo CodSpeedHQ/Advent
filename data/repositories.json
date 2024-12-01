@@ -394,5 +394,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "zappan",
+    "name": "advent-of-code-2024-rust",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
