@@ -316,5 +316,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Ryder-C",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
