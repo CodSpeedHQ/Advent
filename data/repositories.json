@@ -418,5 +418,11 @@
     "name": "advent_of_code_rust_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "moorts",
+    "name": "aoc-rs",
+    "crate": "aoc-rs",
+    "toolchain": "nightly"
   }
 ]
