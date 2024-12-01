@@ -160,5 +160,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "dfomin",
+    "name": "adventofcode2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
