@@ -322,5 +322,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "khoover",
+    "name": "advent-of-code",
+    "crate": "aoc-2024",
+    "toolchain": "stable"
   }
 ]
