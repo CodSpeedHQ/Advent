@@ -82,5 +82,11 @@
     "name": "codspeed-aoc",
     "crate": null,
     "toolchain": "nightly-2024-06-20"
+  },
+  {
+    "owner": "Lonec-L",
+    "name": "advent-of-rust-2024",
+    "crate": "advent-of-rust-2024",
+    "toolchain": "stable"
   }
 ]
