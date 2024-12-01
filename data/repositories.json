@@ -358,5 +358,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "lrangell",
+    "name": "aoc-2024-rust",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
