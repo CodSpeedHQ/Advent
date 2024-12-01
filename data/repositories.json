@@ -268,5 +268,11 @@
     "name": "aoc_2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "BenjaminB64",
+    "name": "adventOfCode",
+    "crate": "advent-of-code-2024",
+    "toolchain": "stable"
   }
 ]
