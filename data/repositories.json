@@ -148,5 +148,11 @@
     "name": "aoc_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "DarthGandalf",
+    "name": "advent-of-code",
+    "crate": "aoc2024",
+    "toolchain": "nightly"
   }
 ]
