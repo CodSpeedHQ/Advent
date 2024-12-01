@@ -142,5 +142,11 @@
     "name": "aoc_2024",
     "crate": "rust_nrjv_aoc_2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "NicolasVidal",
+    "name": "aoc_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
