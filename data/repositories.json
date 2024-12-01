@@ -202,5 +202,11 @@
     "name": "advent-of-code",
     "crate": "aoc-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "technotive",
+    "name": "advent_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
