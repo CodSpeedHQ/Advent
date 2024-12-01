@@ -100,5 +100,11 @@
     "name": "aocs",
     "crate": "aocs",
     "toolchain": "stable"
+  },
+  {
+    "owner": "maneatingape",
+    "name": "codspeed-challenge-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
