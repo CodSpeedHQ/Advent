@@ -220,5 +220,11 @@
     "name": "advent-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "poniponiponiponiponiponiponiponiponi",
+    "name": "aoc",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
