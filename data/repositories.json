@@ -412,5 +412,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "TitouanT",
+    "name": "advent_of_code_rust_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
