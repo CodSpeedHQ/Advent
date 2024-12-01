@@ -76,5 +76,11 @@
     "name": "aoc",
     "crate": "aoc2024",
     "toolchain": "nightly"
+  },
+  {
+    "owner": "bend-n",
+    "name": "codspeed-aoc",
+    "crate": null,
+    "toolchain": "nightly-2024-06-20"
   }
 ]
