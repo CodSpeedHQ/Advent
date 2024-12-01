@@ -334,5 +334,11 @@
     "name": "advent_of_code_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "jurskidl",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
