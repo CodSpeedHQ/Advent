@@ -274,5 +274,11 @@
     "name": "adventOfCode",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "KasparasMasiukas",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
