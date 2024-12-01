@@ -280,5 +280,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "ybbat",
+    "name": "advent2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
