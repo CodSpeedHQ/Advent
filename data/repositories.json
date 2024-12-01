@@ -304,5 +304,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "mori4ever",
+    "name": "adventofcode",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
