@@ -214,5 +214,11 @@
     "name": "aoc24-cs-rs",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "nindalf",
+    "name": "advent-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
