@@ -112,5 +112,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "map9959",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
