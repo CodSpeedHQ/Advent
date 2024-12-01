@@ -382,5 +382,11 @@
     "name": "advent-of-code",
     "crate": "aoc2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "Dewaeq",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
