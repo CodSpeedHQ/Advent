@@ -154,5 +154,11 @@
     "name": "advent-of-code",
     "crate": "aoc2024",
     "toolchain": "nightly"
+  },
+  {
+    "owner": "darksv",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
