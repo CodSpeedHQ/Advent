@@ -208,5 +208,11 @@
     "name": "advent_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "486c",
+    "name": "aoc24-cs-rs",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
