@@ -430,5 +430,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "skewballfox",
+    "name": "AoC2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
