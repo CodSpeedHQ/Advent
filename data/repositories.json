@@ -226,5 +226,11 @@
     "name": "aoc",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "flatypus",
+    "name": "aoc-rust",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
