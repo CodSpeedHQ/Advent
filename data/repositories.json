@@ -424,5 +424,11 @@
     "name": "aoc-rs",
     "crate": "aoc-rs",
     "toolchain": "nightly"
+  },
+  {
+    "owner": "przb",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
