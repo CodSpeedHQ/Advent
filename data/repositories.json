@@ -544,5 +544,11 @@
     "name": "advent-of-code",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "TestingPlant",
+    "name": "aoc",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
