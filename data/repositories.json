@@ -676,5 +676,11 @@
     "name": "aoc-2024-codspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ahans",
+    "name": "aoc2024-rs",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
