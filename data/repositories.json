@@ -128,7 +128,7 @@
   {
     "owner": "ethteck",
     "name": "aoc",
-    "crate": "ethteck-aoc-2024",
+    "crate": null,
     "toolchain": "stable"
   },
   {
