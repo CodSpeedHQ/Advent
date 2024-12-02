@@ -448,5 +448,11 @@
     "name": "advent-of-code-2024",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "alion02",
+    "name": "aocopt",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
