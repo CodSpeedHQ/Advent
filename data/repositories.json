@@ -56,7 +56,7 @@
   {
     "owner": "maia-s",
     "name": "aoc",
-    "crate": "2024",
+    "crate": "aoc-2024",
     "toolchain": "stable"
   },
   {
