@@ -598,5 +598,11 @@
     "name": "aoc2024-codspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Icerath",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
