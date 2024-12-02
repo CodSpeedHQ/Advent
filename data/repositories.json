@@ -514,5 +514,11 @@
     "name": "aoc-2024-perf",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "chicoferreira",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
