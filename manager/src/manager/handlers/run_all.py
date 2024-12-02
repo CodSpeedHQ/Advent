@@ -9,7 +9,7 @@ def main(day: str):
     repos = RepositoryRepository.find_all()
     for repo in repos:
         print(f"Running {repo.owner}/{repo.name} for day {day}")
-        r = SCHEDULE_RUN_WORKFLOW.create_dispatch(ref="main-private", inputs={
+        r = SCHEDULE_RUN_WORKFLOW.create_dispatch(ref="main", inputs={
             "repo_fullname": f"{repo.owner}/{repo.name}",
             "toolchain": repo.toolchain,
             "crate": repo.crate,
