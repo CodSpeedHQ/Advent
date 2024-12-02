@@ -706,5 +706,11 @@
     "name": "aoc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "SelmaGuedidi",
+    "name": "adventofcode",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
