@@ -194,7 +194,7 @@
   {
     "owner": "ricohageman",
     "name": "advent-of-code-2024",
-    "crate": "advent-of-code-2024",
+    "crate": null,
     "toolchain": "stable"
   },
   {
