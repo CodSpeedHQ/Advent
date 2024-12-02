@@ -574,5 +574,11 @@
     "name": "rusty-advent",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "maxymczech",
+    "name": "aoc-2024-rust",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
