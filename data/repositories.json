@@ -700,5 +700,11 @@
     "name": "advent-of-codspeed-2024",
     "crate": null,
     "toolchain": "nightly-2024-12-02"
+  },
+  {
+    "owner": "codersparks",
+    "name": "aoc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
