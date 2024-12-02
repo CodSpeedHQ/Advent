@@ -538,5 +538,11 @@
     "name": "advent-of-codspeed-2024",
     "crate": "advent-of-codspeed-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "plesak",
+    "name": "advent-of-code",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
