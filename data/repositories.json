@@ -640,5 +640,11 @@
     "name": "advent-of-code-2024.rs",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "EbbDrop",
+    "name": "AdventOfCode2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
