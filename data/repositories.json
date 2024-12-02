@@ -472,5 +472,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "victor-scarano",
+    "name": "aoc-2024-rust",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
