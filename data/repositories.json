@@ -688,5 +688,11 @@
     "name": "advent-of-code-rs",
     "crate": "api-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "keys-i",
+    "name": "advent-of-code",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
