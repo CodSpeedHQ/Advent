@@ -460,5 +460,11 @@
     "name": "Advent-Of-Code-2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "balintf",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
