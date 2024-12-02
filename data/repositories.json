@@ -622,5 +622,11 @@
     "name": "advent-of-code-2024",
     "crate": "aoc24",
     "toolchain": "stable"
+  },
+  {
+    "owner": "rolfws",
+    "name": "rolfws_aoc",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
