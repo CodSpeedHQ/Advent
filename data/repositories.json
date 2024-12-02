@@ -586,5 +586,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "hadywalied",
+    "name": "adventOfCode",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
