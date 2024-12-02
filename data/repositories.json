@@ -478,5 +478,11 @@
     "name": "aoc-2024-rust",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "jhscheer",
+    "name": "advent-of-codspeed-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
