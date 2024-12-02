@@ -9,5 +9,10 @@
     {
       "path": "rust-runner"
     }
-  ]
+  ],
+  "settings": {
+    "rust-analyzer.cargo.extraEnv": {
+      "DAY_NUMBER": "1"
+    }
+  }
 }

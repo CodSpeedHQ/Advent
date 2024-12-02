@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 .python-version
+
+rust-runner/input.txt
+rust-runner/output*.txt
