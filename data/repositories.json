@@ -490,5 +490,11 @@
     "name": "AOCspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "aughey",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
