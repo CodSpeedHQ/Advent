@@ -646,5 +646,11 @@
     "name": "AdventOfCode2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "volatilecat",
+    "name": "advent24",
+    "crate": null,
+    "toolchain": "nightly-2024-12-01"
   }
 ]
