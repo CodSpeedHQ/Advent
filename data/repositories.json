@@ -436,5 +436,11 @@
     "name": "AoC2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "kuznetsss",
+    "name": "advent-of-code-2025",
+    "crate": "advent-of-code-2025",
+    "toolchain": "stable"
   }
 ]
