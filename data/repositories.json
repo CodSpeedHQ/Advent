@@ -484,5 +484,11 @@
     "name": "advent-of-codspeed-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "nsheely",
+    "name": "AOCspeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
