@@ -694,5 +694,11 @@
     "name": "advent-of-code",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "SkiFire13",
+    "name": "advent-of-codspeed-2024",
+    "crate": null,
+    "toolchain": "nightly-2024-12-02"
   }
 ]
