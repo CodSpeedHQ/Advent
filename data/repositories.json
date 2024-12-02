@@ -664,5 +664,11 @@
     "name": "aoc_2024",
     "crate": null,
     "toolchain": "nightly-2024-12-02"
+  },
+  {
+    "owner": "Dr-Emann",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
