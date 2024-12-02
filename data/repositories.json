@@ -628,5 +628,11 @@
     "name": "rolfws_aoc",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "t-lenssen",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
