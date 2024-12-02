@@ -562,5 +562,11 @@
     "name": "codspeed-aoc",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Lydxn",
+    "name": "codspeed-aoc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
