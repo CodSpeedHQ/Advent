@@ -8,7 +8,7 @@
   {
     "owner": "adriencaccia",
     "name": "aoc",
-    "crate": "2024",
+    "crate": "rust-2024",
     "toolchain": "stable"
   },
   {
