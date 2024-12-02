@@ -520,5 +520,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "k4g4",
+    "name": "Advent_Of_Code_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
