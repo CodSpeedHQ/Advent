@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "manager"
+    },
+    {
+      "path": "rust-runner"
+    }
+  ]
+}
