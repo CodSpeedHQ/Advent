@@ -616,5 +616,11 @@
     "name": "AdventOfCode2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ileenf",
+    "name": "advent-of-code-2024",
+    "crate": "aoc24",
+    "toolchain": "stable"
   }
 ]
