@@ -658,5 +658,11 @@
     "name": "advent-of-code-24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "david-a-perez",
+    "name": "aoc_2024",
+    "crate": null,
+    "toolchain": "nightly-2024-12-02"
   }
 ]
