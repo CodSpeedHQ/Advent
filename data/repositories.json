@@ -526,5 +526,11 @@
     "name": "Advent_Of_Code_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "chrispetkau",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
