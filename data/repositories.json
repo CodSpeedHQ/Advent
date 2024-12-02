@@ -556,5 +556,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "eyepatchParrot",
+    "name": "codspeed-aoc",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
