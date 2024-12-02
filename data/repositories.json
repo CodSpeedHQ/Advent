@@ -652,5 +652,11 @@
     "name": "advent24",
     "crate": null,
     "toolchain": "nightly-2024-12-01"
+  },
+  {
+    "owner": "mikiab",
+    "name": "advent-of-code-24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
