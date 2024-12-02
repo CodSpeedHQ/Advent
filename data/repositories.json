@@ -610,5 +610,11 @@
     "name": "advent-of-code-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "SLiV9",
+    "name": "AdventOfCode2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
