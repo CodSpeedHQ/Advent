@@ -592,5 +592,11 @@
     "name": "adventOfCode",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "mkfmnn",
+    "name": "aoc2024-codspeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
