@@ -496,5 +496,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "daygelo",
+    "name": "Advent2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
