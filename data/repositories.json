@@ -550,5 +550,11 @@
     "name": "aoc",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "SkellyBG",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
