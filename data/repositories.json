@@ -442,5 +442,11 @@
     "name": "advent-of-code-2025",
     "crate": "advent-of-code-2025",
     "toolchain": "stable"
+  },
+  {
+    "owner": "kuznetsss",
+    "name": "advent-of-code-2024",
+    "crate": "advent-of-code-2024",
+    "toolchain": "stable"
   }
 ]
