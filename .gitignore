@@ -163,3 +163,4 @@ cython_debug/
 
 rust-runner/input.txt
 rust-runner/output*.txt
+rust-runner/day*.tgz

@@ -1,0 +1,36 @@
+name: Trigger day run
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to run benchmarks for"
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+          cache-dependency-glob: "manager/uv.lock"
+      - uses: actions/setup-python@v5
+        id: setup-python
+        with:
+          python-version: 3.13
+
+      - working-directory: manager
+        run: uv sync
+
+      - working-directory: manager
+        run: uv run python src/manager/handlers/run_all.py ${{ github.event.inputs.day }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
