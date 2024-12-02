@@ -568,5 +568,11 @@
     "name": "codspeed-aoc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "nedmv",
+    "name": "rusty-advent",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
