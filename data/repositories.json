@@ -454,5 +454,11 @@
     "name": "aocopt",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "AntaresFowl",
+    "name": "Advent-Of-Code-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
