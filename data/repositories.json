@@ -712,5 +712,11 @@
     "name": "adventofcode",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "MatthewOsei-Ansah",
+    "name": "CodSpeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
