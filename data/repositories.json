@@ -766,5 +766,11 @@
     "name": "AdventOfCode2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "verrchu",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
