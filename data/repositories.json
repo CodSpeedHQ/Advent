@@ -766,5 +766,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "AffeAli",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
