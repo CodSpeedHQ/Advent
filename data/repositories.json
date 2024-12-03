@@ -748,5 +748,11 @@
     "name": "codspeed-aoc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Lorax66",
+    "name": "adventofcode2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
