@@ -11,26 +11,55 @@ permissions:
   actions: write
 
 jobs:
-  main:
+  get-repos:
     runs-on: ubuntu-latest
+    outputs:
+      repositories: ${{ steps.data.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
+      - id: data
+        run: echo "matrix=$(jq -c . < ./data/repositories.json)" >> $GITHUB_OUTPUT
+
+  main:
+    runs-on: ubuntu-latest
+    needs: get-repos
+    strategy:
+      fail-fast: false
+      matrix:
+        repository: ${{fromJson(needs.get-repos.outputs.repositories)}}
+
+    steps:
+      - name: Print metadata
+        run: |
+          echo "Owner: ${{ matrix.repository.owner }}"
+          echo "Name: ${{ matrix.repository.name }}"
+          echo "Crate: ${{ matrix.repository.crate }}"
+          echo "Toolchain: ${{ matrix.repository.toolchain }}"
+      - uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
-      - uses: astral-sh/setup-uv@v4
-        with:
-          enable-cache: true
-          cache-dependency-glob: "manager/uv.lock"
-      - uses: actions/setup-python@v5
-        id: setup-python
-        with:
-          python-version: 3.13
+      - name: Prepare the runner
+        working-directory: ./rust-runner
+        run: |
+          REPO_URL="https://github.com/${{ matrix.repository.owner }}/${{ matrix.repository.name }}"
+          if [ -n "${{ matrix.repository.crate }}" ]; then
+            cargo add --git $REPO_URL ${{ matrix.repository.crate }} --rename solution
+          else
+            cargo add --git $REPO_URL --rename solution
+          fi
+          echo "[toolchain]" > ../rust-toolchain.toml
+          echo "channel = \"${{ matrix.repository.toolchain }}\"" >> ../rust-toolchain.toml
 
-      - working-directory: manager
-        run: uv sync
-
-      - working-directory: manager
-        run: uv run python src/manager/handlers/run_all.py ${{ github.event.inputs.day }}
+      - name: Prepare the branch & schedule the run
+        run: |
+          git config --global user.name "codspeed-advent[bot]"
+          git config --global user.email "codspeed-advent-bot@@users.noreply.github.com"
+          git add rust-runner/* rust-toolchain.toml
+          BRANCH_NAME="run/${{ matrix.repository.owner }}/${{ matrix.repository.name }}/${{ inputs.day }}"
+          git checkout -b $BRANCH_NAME
+          git commit -m "Run: $BRANCH_NAME"
+          git push --force origin $BRANCH_NAME
+          echo "Scheduling the run for $BRANCH_NAME:"
+          gh workflow run run-day.yml --ref $BRANCH_NAME --repo ${{ github.repository }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
