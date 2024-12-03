@@ -742,5 +742,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Fasjeit",
+    "name": "codspeed-aoc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
