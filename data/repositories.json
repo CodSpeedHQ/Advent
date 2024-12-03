@@ -140,12 +140,6 @@
   {
     "owner": "NicolasVidal",
     "name": "aoc_2024",
-    "crate": "rust_nrjv_aoc_2024",
-    "toolchain": "stable"
-  },
-  {
-    "owner": "NicolasVidal",
-    "name": "aoc_2024",
     "crate": null,
     "toolchain": "stable"
   },
@@ -435,12 +429,6 @@
     "owner": "skewballfox",
     "name": "AoC2024",
     "crate": null,
-    "toolchain": "stable"
-  },
-  {
-    "owner": "kuznetsss",
-    "name": "advent-of-code-2025",
-    "crate": "advent-of-code-2025",
     "toolchain": "stable"
   },
   {
