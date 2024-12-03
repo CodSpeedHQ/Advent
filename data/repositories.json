@@ -784,5 +784,11 @@
     "name": "AoC2024",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "RockBacon9922",
+    "name": "Advent-of-Code",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
