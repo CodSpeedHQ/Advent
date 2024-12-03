@@ -730,5 +730,11 @@
     "name": "CodeSpeed",
     "crate": "https://github.com/siddhidjadhav",
     "toolchain": "stable"
+  },
+  {
+    "owner": "batmaninpink",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
