@@ -778,5 +778,11 @@
     "name": "aoc-test",
     "crate": null,
     "toolchain": "nightly-2024-12-01"
+  },
+  {
+    "owner": "skewballfox",
+    "name": "AoC2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
