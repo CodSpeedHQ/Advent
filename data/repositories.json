@@ -724,5 +724,11 @@
     "name": "codspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "siddhidjadhav",
+    "name": "CodeSpeed",
+    "crate": "https://github.com/siddhidjadhav",
+    "toolchain": "stable"
   }
 ]
