@@ -754,5 +754,11 @@
     "name": "adventofcode2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "MeatballSub",
+    "name": "Advent2024Rust",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
