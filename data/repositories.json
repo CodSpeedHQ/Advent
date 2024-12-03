@@ -796,5 +796,11 @@
     "name": "Advent-of-Code",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "ActuallyRuben",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
