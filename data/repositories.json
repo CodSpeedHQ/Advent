@@ -772,5 +772,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "spicy-eel",
+    "name": "aoc-test",
+    "crate": null,
+    "toolchain": "nightly-2024-12-01"
   }
 ]
