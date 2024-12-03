@@ -345,7 +345,7 @@
     "owner": "ahouts",
     "name": "aoc2024",
     "crate": null,
-    "toolchain": "stable"
+    "toolchain": "nightly-2024-12-01"
   },
   {
     "owner": "VirgileHenry",
