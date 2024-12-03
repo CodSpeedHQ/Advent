@@ -718,5 +718,11 @@
     "name": "CodSpeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "tom-p-reichel",
+    "name": "codspeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
