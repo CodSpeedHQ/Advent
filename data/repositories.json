@@ -790,5 +790,11 @@
     "name": "Advent-of-Code",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "RockBacon9922",
+    "name": "Advent-of-Code",
+    "crate": "advent-of-code-2024",
+    "toolchain": "stable"
   }
 ]
