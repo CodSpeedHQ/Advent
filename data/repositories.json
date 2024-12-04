@@ -288,12 +288,6 @@
     "toolchain": "nightly"
   },
   {
-    "owner": "okamt",
-    "name": "advent-of-code-2024",
-    "crate": "advent-of-code-2024",
-    "toolchain": "nightly"
-  },
-  {
     "owner": "roccodev",
     "name": "aoc-2024",
     "crate": null,
