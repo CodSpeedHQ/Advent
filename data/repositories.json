@@ -802,5 +802,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "KeatonTech",
+    "name": "advent_of_code_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
