@@ -814,5 +814,11 @@
     "name": "adventofcode2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "barbega1",
+    "name": "advent_of_code_fast",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
