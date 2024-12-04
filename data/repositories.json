@@ -832,5 +832,11 @@
     "name": "aoc-rs-codspeed",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "samt41",
+    "name": "aoc2024",
+    "crate": "advent-of-code-2024",
+    "toolchain": "nightly"
   }
 ]
