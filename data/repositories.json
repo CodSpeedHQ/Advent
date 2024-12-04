@@ -850,5 +850,11 @@
     "name": "advent-of-code",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "drdozer",
+    "name": "aoc_2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
