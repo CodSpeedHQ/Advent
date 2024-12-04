@@ -826,5 +826,11 @@
     "name": "aoc2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ictrobot",
+    "name": "aoc-rs-codspeed",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
