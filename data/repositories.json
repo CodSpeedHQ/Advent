@@ -820,5 +820,11 @@
     "name": "advent_of_code_fast",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "lGroesswang",
+    "name": "aoc2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
