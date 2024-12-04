@@ -1,4 +1,4 @@
-name: Trigger day run
+name: Trigger day run & schedule benchmarks
 on:
   workflow_dispatch:
     inputs:
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   get-repos:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       repositories: ${{ steps.data.outputs.matrix }}
     steps:
@@ -20,8 +20,8 @@ jobs:
       - id: data
         run: echo "matrix=$(jq -c . < ./data/repositories.json)" >> $GITHUB_OUTPUT
 
-  main:
-    runs-on: ubuntu-latest
+  schedule:
+    runs-on: ubuntu-24.04
     needs: get-repos
     strategy:
       fail-fast: false
@@ -59,7 +59,9 @@ jobs:
           git checkout -b $BRANCH_NAME
           git commit -m "Run: $BRANCH_NAME"
           git push --force origin $BRANCH_NAME
-          echo "Scheduling the run for $BRANCH_NAME:"
           gh workflow run run-day.yml --ref $BRANCH_NAME --repo ${{ github.repository }}
+          RUN_ID=$(gh run list --limit 1 --branch $BRANCH_NAME --json databaseId | jq '.[0].databaseId')
+          echo "Scheduled the run for $BRANCH_NAME"
+          echo "::notice::Measurement Job URL: https://github.com/CodSpeedHQ/Advent/actions/runs/$RUN_ID"
         env:
           GH_TOKEN: ${{ github.token }}
