@@ -66,8 +66,9 @@ jobs:
           git checkout -b $BRANCH_NAME
           git commit -m "Run: $BRANCH_NAME"
           git push --force origin $BRANCH_NAME
+          sleep 5 # wait for the branch to be created
           gh workflow run run-day.yml --ref $BRANCH_NAME --repo ${{ github.repository }}
-          sleep 5
+          sleep 5 # wait for the run to be scheduled
           RUN_ID=$(gh run list --repo ${{ github.repository }} --limit 1 --branch ${BRANCH_NAME} --json databaseId | jq '.[0].databaseId')
           echo "Scheduled the run for $BRANCH_NAME"
           echo "::notice::Measurement Job URL: https://github.com/${{ github.repository }}/actions/runs/$RUN_ID"
