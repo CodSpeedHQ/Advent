@@ -856,5 +856,11 @@
     "name": "aoc_2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "daus-salar",
+    "name": "aoc2024",
+    "crate": "aoc2024",
+    "toolchain": "stable"
   }
 ]
