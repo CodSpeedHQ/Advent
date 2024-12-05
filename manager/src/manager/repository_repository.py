@@ -23,7 +23,7 @@ class RepositoryRepository:
         if input in all_repositories:
             raise ValueError("Repository already exists")
         if any(input.owner == repo.owner for repo in all_repositories):
-            raise ValueError("{input.owner} already has a repository, only one repository per user is allowed")
+            raise ValueError(f"{input.owner} already has a repository, only one repository per user is allowed")
         all_repositories.append(input)
         with ABS_REPOSITORY_DATA_PATH.open("wb") as f:
             out = cls._list_adapter.dump_python(all_repositories, mode="json")

@@ -14,7 +14,11 @@ def main(issue_number: int):
         issue.create_comment(f"Failed to add repository: {r}")
         raise Exception(f"Failed to add repository {repo.owner}/{repo.name}: {r}")
 
-    RepositoryRepository.save(repo)
+    try:
+        RepositoryRepository.save(repo)
+    except ValueError as e:
+        issue.create_comment(f"Failed to add repository: {e}")
+
     issue.create_comment("Repository added successfully! :tada:")
     issue.edit(state="closed")
     print(f"Repository added: {repo.owner}/{repo.name}")
