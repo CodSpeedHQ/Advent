@@ -18,6 +18,7 @@ def main(issue_number: int):
         RepositoryRepository.save(repo)
     except ValueError as e:
         issue.create_comment(f"Failed to add repository: {e}")
+        raise Exception(f"Failed to add repository {repo.owner}/{repo.name}: {e}")
 
     issue.create_comment("Repository added successfully! :tada:")
     issue.edit(state="closed")
