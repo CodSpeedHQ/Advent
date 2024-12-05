@@ -6,6 +6,7 @@ edition = "2021"
 [dependencies]
 paste = "1.0.0"
 codspeed-criterion-compat = { version = "2.7.2", default-features = false }
+solution = { git = "https://github.com/not-matthias/aoc-2024-public", version = "0.1.0", package = "aoc-2024-public" }
 # solution = { git = "YOUR_SOLUTION_REPO_GOES_HERE" }
 
 [[bench]]
