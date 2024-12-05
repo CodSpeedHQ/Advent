@@ -567,7 +567,7 @@
     "owner": "mkfmnn",
     "name": "aoc2024-codspeed",
     "crate": null,
-    "toolchain": "stable"
+    "toolchain": "nightly-2024-12-01"
   },
   {
     "owner": "Icerath",
