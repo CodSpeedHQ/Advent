@@ -324,12 +324,6 @@
     "toolchain": "stable"
   },
   {
-    "owner": "jurskidl",
-    "name": "advent-of-code-2024",
-    "crate": null,
-    "toolchain": "stable"
-  },
-  {
     "owner": "ahouts",
     "name": "aoc2024",
     "crate": null,
@@ -416,12 +410,6 @@
   {
     "owner": "przb",
     "name": "aoc2024",
-    "crate": null,
-    "toolchain": "stable"
-  },
-  {
-    "owner": "skewballfox",
-    "name": "AoC2024",
     "crate": null,
     "toolchain": "stable"
   },
@@ -778,12 +766,6 @@
     "name": "AoC2024",
     "crate": null,
     "toolchain": "nightly"
-  },
-  {
-    "owner": "RockBacon9922",
-    "name": "Advent-of-Code",
-    "crate": null,
-    "toolchain": "stable"
   },
   {
     "owner": "RockBacon9922",
