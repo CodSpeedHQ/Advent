@@ -3,6 +3,11 @@
 version = 4
 
 [[package]]
+name = "Advent2024"
+version = "0.1.0"
+source = "git+https://github.com/daygelo/Advent2024#833102fa9c661c7b2220493a66ac0cc91cd34c73"
+
+[[package]]
 name = "aho-corasick"
 version = "1.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -309,6 +314,7 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 name = "rust-runner"
 version = "0.1.0"
 dependencies = [
+ "Advent2024",
  "codspeed-criterion-compat",
  "paste",
 ]
