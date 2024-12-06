@@ -838,5 +838,11 @@
     "name": "aoc2024",
     "crate": "aoc2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "aelred",
+    "name": "aoc2024",
+    "crate": "aoc2024",
+    "toolchain": "stable"
   }
 ]
