@@ -842,7 +842,7 @@
   {
     "owner": "aelred",
     "name": "aoc2024",
-    "crate": "aoc2024",
+    "crate": null,
     "toolchain": "stable"
   },
   {
