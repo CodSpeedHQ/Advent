@@ -188,6 +188,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbf6a919d6cf397374f7dfeeea91d974c7c0a7221d0d0f4f20d859d329e53fcc"
 
 [[package]]
+name = "iamspeed"
+version = "0.1.0"
+source = "git+https://github.com/MDFL64/iamspeed#f3f6907a9c543053872cde9f92ec536df31f2731"
+dependencies = [
+ "radsort",
+]
+
+[[package]]
 name = "is-terminal"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -277,6 +285,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "radsort"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "019b4b213425016d7d84a153c4c73afb0946fbb4840e4eece7ba8848b9d6da22"
+
+[[package]]
 name = "regex"
 version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -310,6 +324,7 @@ name = "rust-runner"
 version = "0.1.0"
 dependencies = [
  "codspeed-criterion-compat",
+ "iamspeed",
  "paste",
 ]
 
