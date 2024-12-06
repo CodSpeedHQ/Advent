@@ -33,6 +33,7 @@ jobs:
         working-directory: ./rust-runner
         env:
           DAY_NUMBER: ${{ steps.parse_branch.outputs.day }}
+          RUSTFLAGS: "-C target-cpu=native"
         run: cargo codspeed build
 
       - name: Run the benchmarks
