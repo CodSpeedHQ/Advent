@@ -38,4 +38,4 @@ You can visit the [rust-runner](./rust-runner/) folder to test your Rust solutio
 
 ## Support
 
-Join us on [Discord](https://discord.gg/p4jTaunHwA) if you need help or want to contribute.
+Join us on [Discord](https://discord.gg/NDa4PBKWaa) if you need help or want to contribute.
