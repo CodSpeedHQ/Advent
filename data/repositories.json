@@ -844,5 +844,11 @@
     "name": "aoc2024",
     "crate": "aoc2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "StefanVukovic99",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
