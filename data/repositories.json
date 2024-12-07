@@ -856,5 +856,11 @@
     "name": "advent-of-code-2024",
     "crate": "advent-of-code-2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "tesselslate",
+    "name": "aoc-codspeed",
+    "crate": null,
+    "toolchain": "nightly-2024-12-06"
   }
 ]
