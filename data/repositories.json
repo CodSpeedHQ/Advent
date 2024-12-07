@@ -862,5 +862,11 @@
     "name": "aoc-codspeed",
     "crate": null,
     "toolchain": "nightly-2024-12-06"
+  },
+  {
+    "owner": "ogtn",
+    "name": "aoc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
