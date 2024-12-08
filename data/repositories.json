@@ -886,5 +886,11 @@
     "name": "adventofcode2024",
     "crate": "solution",
     "toolchain": "stable"
+  },
+  {
+    "owner": "jgreth0",
+    "name": "aoc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
