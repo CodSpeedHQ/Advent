@@ -880,5 +880,11 @@
     "name": "csc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "vslinko",
+    "name": "adventofcode2024",
+    "crate": "solution",
+    "toolchain": "stable"
   }
 ]
