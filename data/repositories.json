@@ -868,5 +868,11 @@
     "name": "aoc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "AG-88301",
+    "name": "AoC24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
