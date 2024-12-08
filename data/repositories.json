@@ -831,7 +831,7 @@
     "owner": "drdozer",
     "name": "aoc_2024",
     "crate": null,
-    "toolchain": "stable"
+    "toolchain": "nightly"
   },
   {
     "owner": "daus-salar",
