@@ -24,6 +24,27 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "55cc3b69f167a1ef2e161439aa98aed94e6028e5f9a59be9a6ffb47aef1651f9"
 
 [[package]]
+name = "aoc"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
+dependencies = [
+ "utils",
+ "year2015",
+ "year2016",
+ "year2017",
+ "year2024",
+]
+
+[[package]]
+name = "aoc-rs-codspeed"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs-codspeed#9c3aec4add75882447cd2c824b8dee0b2d374ade"
+dependencies = [
+ "aoc",
+ "paste",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -309,6 +330,7 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 name = "rust-runner"
 version = "0.1.0"
 dependencies = [
+ "aoc-rs-codspeed",
  "codspeed-criterion-compat",
  "paste",
 ]
@@ -386,6 +408,11 @@ name = "unicode-ident"
 version = "1.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
+
+[[package]]
+name = "utils"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
 
 [[package]]
 name = "walkdir"
@@ -553,3 +580,35 @@ name = "windows_x86_64_msvc"
 version = "0.52.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
+
+[[package]]
+name = "year2015"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "year2016"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "year2017"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "year2024"
+version = "0.0.0"
+source = "git+https://github.com/ictrobot/aoc-rs.git#126734936d05713cc2588313910c2c47728fdec4"
+dependencies = [
+ "utils",
+]
