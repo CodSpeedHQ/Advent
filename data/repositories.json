@@ -874,5 +874,11 @@
     "name": "AoC24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "stefangimmillaro",
+    "name": "csc24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
