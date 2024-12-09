@@ -5,6 +5,10 @@ on:
       day:
         description: "Day to run benchmarks for"
         required: true
+      skip_scheduling:
+        description: "Skip scheduling the run"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,16 +40,38 @@ jobs:
           echo "Crate: ${{ matrix.repository.crate }}"
           echo "Toolchain: ${{ matrix.repository.toolchain }}"
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Setup rust toolchain
         uses: moonrepo/setup-rust@v1
         with:
           profile: minimal
           channel: ${{ matrix.repository.toolchain }}
+          bins: cargo-modules
+
+      - name: Input Repo check
+        env:
+          NO_COLOR: 1 # Needed to avoid issues with grep
+          GH_TOKEN: ${{ github.token }}
+        id: input_repo_check
+        run: |
+          gh repo clone ${{ matrix.repository.owner }}/${{ matrix.repository.name }} /tmp/solution_repo -- --depth=1
+          cd /tmp/solution_repo
+          if [ -n "${{ matrix.repository.crate }}" ]; then
+            STRUCTURE=$(cargo modules structure --lib --max-depth=1 -p ${{ matrix.repository.crate }})
+          else
+            STRUCTURE=$(cargo modules structure --lib --max-depth=1)
+          fi
+          echo "Crate structure:"
+          echo "$STRUCTURE"
+          # Check if the crate has the day1 module
+          if ! echo "$STRUCTURE" | grep -q 'mod day${{ inputs.day }}:'; then
+            echo "::warning::The day ${{ inputs.day }} module is missing. Skipping the run."
+            echo "valid=false" >> $GITHUB_OUTPUT
+          else
+            echo "valid=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Prepare the runner
+        if: ${{ steps.input_repo_check.outputs.valid == 'true' }}
         working-directory: ./rust-runner
         run: |
           REPO_URL="https://github.com/${{ matrix.repository.owner }}/${{ matrix.repository.name }}"
@@ -58,6 +84,7 @@ jobs:
           echo "channel = \"${{ matrix.repository.toolchain }}\"" >> ../rust-toolchain.toml
 
       - name: Prepare the branch & schedule the run
+        if: ${{ !inputs.skip_scheduling && steps.input_repo_check.outputs.valid == 'true' }}
         run: |
           git config --global user.name "codspeed-advent[bot]"
           git config --global user.email "codspeed-advent-bot@@users.noreply.github.com"
