@@ -5,6 +5,9 @@ on:
       day:
         description: "Day to run benchmarks for"
         required: true
+      owner:
+        description: "Owner of the repository"
+        required: false
       skip_scheduling:
         description: "Skip scheduling the run"
         type: boolean
@@ -22,7 +25,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: data
-        run: echo "matrix=$(jq -c . < ./data/repositories.json)" >> $GITHUB_OUTPUT
+        run: |
+          MATRIX=$(jq -c . < ./data/repositories.json)
+          if [ -n "${{ inputs.owner }}" ]; then
+            MATRIX=$(echo $MATRIX | jq -c '[.[] | select(.owner == "${{ inputs.owner }}")]')
+          fi
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
 
   schedule:
     runs-on: ubuntu-24.04
@@ -48,6 +56,7 @@ jobs:
           bins: cargo-modules
 
       - name: Input Repo check
+        if: ${{ !inputs.owner }}
         env:
           NO_COLOR: 1 # Needed to avoid issues with grep
           GH_TOKEN: ${{ github.token }}
@@ -71,7 +80,7 @@ jobs:
           fi
 
       - name: Prepare the runner
-        if: ${{ steps.input_repo_check.outputs.valid == 'true' }}
+        if: ${{ steps.input_repo_check.outputs.valid == 'true' || inputs.owner }}
         working-directory: ./rust-runner
         run: |
           REPO_URL="https://github.com/${{ matrix.repository.owner }}/${{ matrix.repository.name }}"
@@ -84,7 +93,7 @@ jobs:
           echo "channel = \"${{ matrix.repository.toolchain }}\"" >> ../rust-toolchain.toml
 
       - name: Prepare the branch & schedule the run
-        if: ${{ !inputs.skip_scheduling && steps.input_repo_check.outputs.valid == 'true' }}
+        if: ${{ (!inputs.skip_scheduling && steps.input_repo_check.outputs.valid == 'true') || inputs.owner }}
         run: |
           git config --global user.name "codspeed-advent[bot]"
           git config --global user.email "codspeed-advent-bot@@users.noreply.github.com"
