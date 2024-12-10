@@ -898,5 +898,11 @@
     "name": "AoC2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "phlafoo",
+    "name": "advent-of-codspeed-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
