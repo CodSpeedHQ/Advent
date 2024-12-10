@@ -904,5 +904,11 @@
     "name": "advent-of-codspeed-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "hugnata",
+    "name": "aoc-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
