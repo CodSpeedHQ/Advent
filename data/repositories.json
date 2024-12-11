@@ -910,5 +910,11 @@
     "name": "aoc-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "ahakkar",
+    "name": "codspeed_aoc",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
