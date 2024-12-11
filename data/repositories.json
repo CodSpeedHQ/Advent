@@ -916,5 +916,11 @@
     "name": "codspeed_aoc",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "robprestezog",
+    "name": "advent-of-code-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
