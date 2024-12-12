@@ -31,6 +31,7 @@ class RepositoryModel(BaseModel):
     name: str
 
     crate: Optional[str] = None
+    subdir: Optional[str] = None
     toolchain: str
 
     model_config = {
@@ -62,5 +63,6 @@ class RepositoryModel(BaseModel):
             owner=owner,
             name=name,
             crate=handle_github_issue_optional_response(crate),
+            subdir=handle_github_issue_optional_response(subdir),
             toolchain=toolchain,
         )

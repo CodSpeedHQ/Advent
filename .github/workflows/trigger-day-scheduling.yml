@@ -46,6 +46,7 @@ jobs:
           echo "Owner: ${{ matrix.repository.owner }}"
           echo "Name: ${{ matrix.repository.name }}"
           echo "Crate: ${{ matrix.repository.crate }}"
+          echo "Subdir: ${{ matrix.repository.subdir }}"
           echo "Toolchain: ${{ matrix.repository.toolchain }}"
       - uses: actions/checkout@v4
       - name: Setup rust toolchain
@@ -63,7 +64,7 @@ jobs:
         id: input_repo_check
         run: |
           gh repo clone ${{ matrix.repository.owner }}/${{ matrix.repository.name }} /tmp/solution_repo -- --depth=1
-          cd /tmp/solution_repo
+          cd "/tmp/solution_repo/${{ matrix.repository.subdir }}"
           if [ -n "${{ matrix.repository.crate }}" ]; then
             STRUCTURE=$(cargo modules structure --lib --max-depth=1 -p ${{ matrix.repository.crate }})
           else

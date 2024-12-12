@@ -13,6 +13,7 @@ def main(day: str):
             "repo_fullname": f"{repo.owner}/{repo.name}",
             "toolchain": repo.toolchain,
             "crate": repo.crate,
+            "subdir": repo.subdir,
             "day": day
         })
         if not r:

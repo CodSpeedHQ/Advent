@@ -24,6 +24,14 @@ body:
     validations:
       required: false
   - type: input
+    id: subdir
+    attributes:
+      label: Subdirectory
+      description: If the crate is not on top level of the repository, but not a workspace either, please specify the subdirectory where to find it. If your repository is at top level, please leave this blank. Setting this field also requires setting Crate name.
+      placeholder: "my_aoc_2024_crate"
+    validations:
+      required: false
+  - type: input
     id: toolchain
     attributes:
       label: Toolchain version

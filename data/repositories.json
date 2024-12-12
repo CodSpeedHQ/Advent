@@ -147,6 +147,7 @@
     "owner": "DarthGandalf",
     "name": "advent-of-code",
     "crate": "aoc2024",
+    "subdir": "2024",
     "toolchain": "nightly"
   },
   {

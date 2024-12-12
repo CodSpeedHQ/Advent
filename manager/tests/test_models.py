@@ -12,6 +12,10 @@ https://github.com/art049/AoC23
 
 _No response_
 
+### Subdirectory
+
+_No response_
+
 ### Toolchain version
 
 stable
@@ -23,6 +27,7 @@ stable
         "owner": "art049",
         "name": "AoC23",
         "crate": None,
+        "subdir": None,
         "toolchain": "stable",
     }
 
@@ -38,6 +43,10 @@ https://github.com/adriencaccia/aoc
 
 2023
 
+### Subdirectory
+
+2023
+
 ### Toolchain version
 
 stable
@@ -49,5 +58,6 @@ stable
         "owner": "adriencaccia",
         "name": "aoc",
         "crate": "2023",
+        "subdir": "2023",
         "toolchain": "stable",
     }
