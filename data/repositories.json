@@ -651,7 +651,7 @@
     "owner": "ahans",
     "name": "aoc2024-rs",
     "crate": null,
-    "toolchain": "stable"
+    "toolchain": "nightly"
   },
   {
     "owner": "Lintermute",
