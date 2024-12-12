@@ -85,7 +85,7 @@ jobs:
         run: |
           git config --global user.name "codspeed-advent[bot]"
           git config --global user.email "codspeed-advent-bot@@users.noreply.github.com"
-          git add rust-runner/* rust-toolchain.toml
+          git add rust-runner/ rust-toolchain.toml
           BRANCH_NAME="run/${{ matrix.repository.owner }}/${{ matrix.repository.name }}/${{ inputs.day }}"
           git checkout -b $BRANCH_NAME
           git commit -m "Run: $BRANCH_NAME"
