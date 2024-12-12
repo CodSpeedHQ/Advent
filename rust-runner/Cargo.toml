@@ -17,3 +17,7 @@ path = "bench_part1.rs"
 name = "bench_part2"
 harness = false
 path = "bench_part2.rs"
+
+[[test]]
+name = "test_build"
+path = "test_build.rs"
