@@ -71,6 +71,7 @@ jobs:
         working-directory: ./rust-runner
         env:
           DAY_NUMBER: ${{ inputs.day }}
+          RUSTFLAGS: "-C target-cpu=native"
         run: |
           if ! cargo build --test test_build ; then
             echo "::warning::The day ${{ inputs.day }} module is missing or malformed. Skipping the run."
