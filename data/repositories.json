@@ -934,5 +934,11 @@
     "name": "FastAoC2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "Pencilcaseman",
+    "name": "codspeed-aoc-2024",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
