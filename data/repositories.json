@@ -946,5 +946,11 @@
     "name": "aoc24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "lj3954",
+    "name": "AdventOfCodSpeed24",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
