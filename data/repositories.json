@@ -543,7 +543,7 @@
     "owner": "nedmv",
     "name": "rusty-advent",
     "crate": null,
-    "toolchain": "stable"
+    "toolchain": "nightly"
   },
   {
     "owner": "maxymczech",
