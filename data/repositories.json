@@ -952,5 +952,11 @@
     "name": "AdventOfCodSpeed24",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "tcahill",
+    "name": "advent_of_code_2024",
+    "crate": "advent_of_code_2024",
+    "toolchain": "stable"
   }
 ]
