@@ -958,5 +958,11 @@
     "name": "advent_of_code_2024",
     "crate": "advent_of_code_2024",
     "toolchain": "stable"
+  },
+  {
+    "owner": "daniellowtw",
+    "name": "aoc-codspeed-2024",
+    "crate": null,
+    "toolchain": "stable"
   }
 ]
