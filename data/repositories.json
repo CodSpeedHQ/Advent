@@ -746,7 +746,7 @@
   {
     "owner": "sorcio",
     "name": "aoc2024",
-    "crate": null,
+    "crate": "aoc2024",
     "toolchain": "nightly"
   },
   {
