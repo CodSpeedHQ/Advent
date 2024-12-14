@@ -964,5 +964,11 @@
     "name": "aoc-codspeed-2024",
     "crate": null,
     "toolchain": "stable"
+  },
+  {
+    "owner": "BlockOG",
+    "name": "codspeed-aoc",
+    "crate": null,
+    "toolchain": "nightly"
   }
 ]
