@@ -885,7 +885,7 @@
     "owner": "vslinko",
     "name": "adventofcode2024",
     "crate": "solution",
-    "toolchain": "stable"
+    "toolchain": "nightly"
   },
   {
     "owner": "jgreth0",
