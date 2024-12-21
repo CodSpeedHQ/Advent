@@ -970,5 +970,11 @@
     "name": "codspeed-aoc",
     "crate": null,
     "toolchain": "nightly"
+  },
+  {
+    "owner": "whiteand",
+    "name": "advent-of-code",
+    "crate": "y24d21",
+    "toolchain": "stable"
   }
 ]
