@@ -10,6 +10,7 @@ day_25 = []
 [dependencies]
 paste = "1.0.0"
 codspeed-criterion-compat = { version = "2.7.2", default-features = false }
+solution = { git = "https://github.com/jhscheer/advent-of-codspeed-2024", version = "0.1.0", package = "advent-of-codspeed-2024" }
 # solution = { git = "YOUR_SOLUTION_REPO_GOES_HERE" }
 
 [[bench]]
