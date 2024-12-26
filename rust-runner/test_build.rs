@@ -2,7 +2,11 @@
 use rust_runner::check_result;
 
 paste::paste! {
+    #[cfg(not(day_25))]
     use solution::[<day env!("DAY_NUMBER")>]::{part1, part2};
+
+    #[cfg(day_25)]
+    use solution::[<day env!("DAY_NUMBER")>]::part1;
 }
 
 #[test]
@@ -13,6 +17,7 @@ fn test_build_part_1() {
     check_result(output, expected, 1);
 }
 
+#[cfg(not(day_25))]
 #[test]
 fn test_build_part_2() {
     let input = "PLACEHOLDER";

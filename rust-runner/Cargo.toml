@@ -2,6 +2,10 @@
 name = "rust-runner"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
+
+[features]
+day_25 = []
 
 [dependencies]
 paste = "1.0.0"
